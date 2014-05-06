@@ -1,9 +1,9 @@
-eXo UX Guidlines
+ELCOM UX Guidlines
 ====================
 
 GOAL: 
-- To document eXo user interface and provide guidelines to 3rd party developers on how to design their apps.
-- Make it easy to study and reuse the eXo Platform style. By following our guidelines, your apps will fit very well in eXo
+- To document ELCOM user interface and provide guidelines to 3rd party developers on how to design their apps.
+- Make it easy to study and reuse the ELCOM style. By following our guidelines, your apps will fit very well in ELCOM
 
 DONE:
 - Components: Typography, Form, Button, Table, Avatar, Icon, Navigation, Dropdown, Mini Calendar, Progress bar, Alert, Tooltip and Popover, Thumbnails.
@@ -12,15 +12,14 @@ DONE:
 PLAN:
 - Update and improve the website based on feedbacks.
 - Continue to compose the other pattern.
-- Update UX-Guidelines following the changes of Bootstraps. and the eXo Platform style.
+- Update UX-Guidelines following the changes of Bootstraps. and the ELCOM style.
 
 HOW TO DOWNLOAD:
-- Github HTTP: https://github.com/exoplatform/ux-guidelines.git
-- Github SSH: git@github.com:exoplatform/ux-guidelines.git
-- Github Zip: https://github.com/exoplatform/ux-guidelines/zipball/master
+- Github HTTP: https://github.com/elcom-corp/elcom-webui-guidelines.git
+- Github SSH: git@github.com:elcom-corp/elcom-webui-guidelines.git
 
 DEMO ONLINE WEBSITE:
-- http://exoplatform.github.io/ux-guidelines/
+- http://elcom-corp.github.io/elcom-webui-guidelines/
 
 
 
