@@ -1,78 +1,132 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ELCOM WEBUI GUIDELINES by elcom-corp</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/elcom-corp/elcom-webui-guidelines">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/elcom-corp/elcom-webui-guidelines/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/elcom-corp/elcom-webui-guidelines/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ELCOM UX Guidelines</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		<!-- Le styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+    		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/prettify.css" rel="stylesheet">
+		<link href="css/docs.css" rel="stylesheet">
+		<link href="css/uxp-pattern.css" rel="stylesheet">
+		<link href="css/elcom-platform.css" rel="stylesheet">
+		
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<!-- Le fav and touch icons -->
+		
+	</head>
+	
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner clearfix">
+				<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="./index.html" class="brand"><h3 style="font-family: 'Helvetica Neue Bold', Helvetica, Lucida, Arial, sans-serif; font-size: 24px; font-weight: bold; line-height: 28px; text-shadow: 0px 0px 1px; rgba(35, 44, 48, 0.15); color:white; margin:3px;">ELCOM</h3></a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="getting-started.html">Getting Started</a></li>
+						<li><a href="Components.html">Components</a></li>
+						<li><a href="Patterns.html">Patterns</a></li>
+					</ul>
+				</div>
+				<!--
+				<div class="pull-right" style="margin-top: 11px;">
+				<a class="btnDownloadTop" target="_blank" href="#"></a>
+				<a class="btnLearMore" href="#"></a>
+				</div>
+				-->
+			</div>
+		</div>
+		
+		<!-- Main hero unit for a primary marketing message or call to action -->
+		<div class="hero-unit">
+			<div class="container">
+				<h1>ELCOM UX Guidelines</h1>
+				<p>Discover how elcom Platform leverages and augments Twitter Bootstrap to build its stunning Design. Understand UX patterns and components usage to make your own apps look professional and fit perfectly within elcom.</p>
+				<p class="pull-right"><font size="2px" color="#999999">Last updated on 2014 Mar 28</p>
+			</div>
+		</div>
+		
+		<div class="container">
+			
+			<!-- Example row of columns -->
+			<div class="row-fluid homeOverview">
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="getting-started.html"><img src="img/icon_start.png"></a>
+						<div class="media-body">
+							<h2><a href="getting-started.html">Getting Started</a></h2>
+							<p>Overview of ELCOM UX Guidelines, its structure and content, and how to get started with a simple sample.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="Patterns.html"><img src="img/icon_component.png"></a>
+						<div class="media-body">
+							<h2><a href="Components.html">Components</a></h2>
+							<p>The components can be reused as-is and we give code samples and instructions on how to customize them a bit. For each component, extensive details on the css styles to use are given.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="media">
+						<a class="pull-left" href="Components.html"><img src="img/icon_pattern.png"></a>
+						<div class="media-body">
+							<h2><a href="Patterns.html">Patterns</a></h2>
+							<p>Patterns defines templates, behaviors, how and when to use them for specific  functions or objects. Each pattern is composed of different UI components that interact together.</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end row 2 -->
+			
+			<div id="footer">
+			
+			</div>
+		</div> 
+		<!-- /container -->
+		
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap-transition.js"></script>
+		<script src="js/bootstrap-alert.js"></script>
+		<script src="js/bootstrap-modal.js"></script>
+		<script src="js/bootstrap-dropdown.js"></script>
+		<script src="js/bootstrap-scrollspy.js"></script>
+		<script src="js/bootstrap-tab.js"></script>
+		<script src="js/bootstrap-tooltip.js"></script>
+		<script src="js/bootstrap-popover.js"></script>
+		<script src="js/bootstrap-button.js"></script>
+		<script src="js/bootstrap-collapse.js"></script>
+		<script src="js/bootstrap-carousel.js"></script>
+		<script src="js/bootstrap-typeahead.js"></script>
+		<script src="js/application.js"></script>
+		
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  			ga('create', 'UA-1292368-34', 'elcom-corp.github.io');
+  			ga('send', 'pageview');
+		</script>
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>ELCOM WEBUI GUIDELINES</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/elcom-corp">elcom-corp</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+	</body>
 </html>
+
